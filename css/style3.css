@@ -62,11 +62,10 @@ nav>ul>li a:hover {
 
 
 .header {
-    padding: 100px;
-    text-align: center;
-    background-image: url('../img2/logo 1 Kiosco.webp');
+    padding: 140px;
+    text-align: left;
+    background-image: url('../img/Logo.png');
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .header h1 {
