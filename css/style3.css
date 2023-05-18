@@ -232,6 +232,11 @@ h1 {
     max-height: 500px;
 }
 
+.image-product {
+    background-color: #6e17b0de;
+    padding: 5px;
+    max-height: 500px;
+}
 .red-socials {
     text-align: center;
 }
@@ -314,8 +319,8 @@ div.containerDetail {
     flex: 1;
 }
 
-.column .image {
-    width: 100%;
+.columnimage {
+    flex: 50%;
 }
 
 .column .content {
@@ -337,4 +342,3 @@ div.containerDetail {
     font-style: normal;
     font-weight: normal;
 }
-
