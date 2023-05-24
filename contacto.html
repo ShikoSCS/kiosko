@@ -9,12 +9,16 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Source+Serif+Pro:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Source+Serif+Pro:wght@200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        type="text/css">
     <link rel="stylesheet" href="css/style3.css" type="text/css">
     <link rel="stylesheet" href="css/slider.css" type="text/css">
-    
+    <link rel="stylesheet" href="css/formulario.css" type="text/css">
+
     <link rel="icon" href="img/favicon.ico">
+    <script src="javascript/formulario.js"></script>
 </head>
 
 
@@ -38,11 +42,37 @@
         <div class="row">
             <div class="leftcolumn">
                 <div class="cardhome">
-                    
-                 
+                    <div class="container">
+                        <h2>Hacenos tu consulta!</h2>
+                        <form action="#" method="post">
+                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <label for="apellido">Apellido:</label>
+                                <input type="text" class="form-control" id="apellido" name="apellido" required>
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <label for="telefono">Teléfono:</label>
+                                <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                            </div>
+                            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="comentarios">Agreganos tus comentarios:</label>
+                                <textarea class="form-control" id="comentarios" name="comentarios" rows="4"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+
                 </div>
 
-                <div class="cardhome">
+                <!-- <div class="cardhome">
 
                      
                 </div>
@@ -53,15 +83,20 @@
                 </div>
                 <div class="cardhome">
 
-                </div>
+                </div> -->
+
+
             </div>
             <div class="rightcolumn">
                 <div class="cardhome">
                     <h2>Publicidad</h2>
-                    <iframe style="width: 100%;" height="auto" src="https://www.youtube.com/embed/sDeI4YKv9d8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe style="width: 100%;" height="auto" src="https://www.youtube.com/embed/sDeI4YKv9d8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
-                
-            
+
+
 
                 <div class="cardhome">
                     <h2>Siguenos</h2>
@@ -71,12 +106,12 @@
                             <i class="fa fa-brands fa-twitter fa-stack-1x"></i>
                         </span>
 
-                        <span class="fa-stack fa-lg"  style="color:#ed6b3b;">
+                        <span class="fa-stack fa-lg" style="color:#ed6b3b;">
                             <i class="fa fa-circle fa-regular fa-stack-2x"></i>
                             <i class="fa fa-brands fa-instagram fa-stack-1x"></i>
                         </span>
 
-                        <span class="fa-stack fa-lg"  style="color:#3745db;">
+                        <span class="fa-stack fa-lg" style="color:#3745db;">
                             <i class="fa fa-circle fa-regular fa-stack-2x"></i>
                             <i class="fa fa-brands fa-facebook fa-stack-1x"></i>
                         </span>
@@ -84,14 +119,18 @@
                 </div>
                 <div class="cardhome">
                     <h2>Ubicación</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3042727448355!2d-58.50144902482767!3d-34.596466657114256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb630ca2d4961%3A0x1ed31b2169eacf23!2sKiosco%20%22La%20Cubana%22!5e0!3m2!1ses!2sar!4v1683411935389!5m2!1ses!2sar" style="border:0; width: 100%; height: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3042727448355!2d-58.50144902482767!3d-34.596466657114256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb630ca2d4961%3A0x1ed31b2169eacf23!2sKiosco%20%22La%20Cubana%22!5e0!3m2!1ses!2sar!4v1683411935389!5m2!1ses!2sar"
+                        style="border:0; width: 100%; height: auto;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
     </div>
     <!-- <script type="text/javascript" src="javascript/api_rest_home.js"></script> -->
 
+    <script type="text/javascript" src="javascript/eventos.js"></script>
+    <script type="text/javascript" src="javascript/validation.js"></script>
 </body>
 
 </html>
-
