@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="css/style3.css" type="text/css">
     <link rel="stylesheet" href="css/slider.css" type="text/css">
-
     <link rel="icon" href="img/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 
@@ -135,12 +135,32 @@
 
             <div class="rightcolumn">
                 <div class="cardhome">
+                    <h1>Cotización de divisas</h1>
+                        <table id="exchange-rates">
+                          <thead>
+                            <tr>
+                              <th>Moneda</th>
+                              <th>Cotización</th>
+                            </tr>
+                          </thead>
+                          <tbody></tbody>
+                        </table>
+                 </div>
+                <div class="cardhome">
                     <h2>Publicidad</h2>
                     <iframe style="width: 100%;" height="auto" src="https://www.youtube.com/embed/sDeI4YKv9d8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
-               
+                <div class="cardhome">
+                    <h2>Información</h2>
+                    <div class="more-pupulate">
+                        <ul>
+                            <li>Abierto las 24hrs</li>
+                            <li>El horario para las bebidas alcoholicas es hasta las 22hrs</li>
+                            <li>Los Almuerzo de 12hrs hasta las 15hrs</li>
+                        </ul>
+                    </div>
     
-                
+                </div>
                 <div class="cardhome">
                     <h2>Siguenos</h2>
                     <p class="red-socials">
@@ -159,7 +179,7 @@
                             <i class="fa fa-brands fa-facebook fa-stack-1x"></i>
                         </span>
                     </p>
-                </div>
+                </div>               
                 <div class="cardhome">
                     <h2>Ubicación</h2>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3042727448355!2d-58.50144902482767!3d-34.596466657114256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb630ca2d4961%3A0x1ed31b2169eacf23!2sKiosco%20%22La%20Cubana%22!5e0!3m2!1ses!2sar!4v1683411935389!5m2!1ses!2sar" style="border:0; width: 100%; height: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -175,6 +195,7 @@
         </div>
     </div>
     <script src="javascript/eventos.js"></script>
+    <script src="javascript/api_currencies.js"></script>
 
 </body>
 

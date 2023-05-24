@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="css/style3.css" type="text/css">    
     <link rel="icon" href="img/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 
@@ -98,6 +99,18 @@
             </div>
             <div class="rightcolumn">
                 <div class="cardhome">
+                    <h1>Cotización de divisas</h1>
+                        <table id="exchange-rates">
+                          <thead>
+                            <tr>
+                              <th>Moneda</th>
+                              <th>Cotización</th>
+                            </tr>
+                          </thead>
+                          <tbody></tbody>
+                        </table>
+                 </div>
+                <div class="cardhome">
                     <h2>Publicidad</h2>
                     <iframe style="width: 100%;" height="auto" src="https://www.youtube.com/embed/sDeI4YKv9d8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
@@ -112,7 +125,6 @@
                     </div>
     
                 </div>
-
                 <div class="cardhome">
                     <h2>Siguenos</h2>
                     <p class="red-socials">
@@ -147,7 +159,7 @@
         </div>
     </div>
     <script src="javascript/eventos.js"></script>
-
+    <script src="javascript/api_currencies.js"></script>
 </body>
 
 </html>
